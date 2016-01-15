@@ -1,0 +1,10 @@
+
+test_form:
+  path: '/test-form'
+  defaults:
+    _form: '\Drupal\form_test\Form\DefaultForm'
+    _title: 'Form test'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE
